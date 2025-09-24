@@ -25,7 +25,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo "Running Maven Build..."
-                sh 'mvn clean install'
+                sh '/opt/homebrew/Cellar/maven/3.9.11/libexec/bin/mvn clean install'
             }
         }
 
