@@ -25,6 +25,6 @@ public class LoginSteps {
 
     @Then("User should see homepage")
     public void user_should_see_homepage() {
-        System.out.println("Homepage verified!");
+        System.out.println("Homepage verified successfully!");
     }
 }
