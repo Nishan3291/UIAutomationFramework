@@ -9,18 +9,26 @@ public class LoginSteps {
 
     @Given("User is on login page")
     public void user_is_on_login_page() {
-        DriverFactory.getDriver().get("https://google.com/login");
+        DriverFactory.getDriver().get("https://www.amazon.in/");
     }
 
-    @When("User enters username {string} and password {string}")
-    public void user_enters_username_and_password(String username, String password) {
+    @When("User click on signin link")
+    public void user_click_on_signin_link() {
+        loginPage.signIn();
+    }
+    @When("User enters username {string}")
+    public void user_enters_username(String username) throws InterruptedException {
         loginPage.enterUsername(username);
+    }
+
+    @When("User enters password {string}")
+    public void user_enters_password(String password) throws InterruptedException {
         loginPage.enterPassword(password);
     }
 
     @When("Clicks login button")
     public void clicks_login_button() {
-        loginPage.clickLogin();
+        loginPage.signInSubmit();
     }
 
     @Then("User should see homepage")

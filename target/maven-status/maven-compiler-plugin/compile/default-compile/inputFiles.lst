@@ -1,4 +1,5 @@
-/Users/nishan/IdeaProjects/UIAutomationFramework_1/src/main/java/com/ui/automation/Main.java
 /Users/nishan/IdeaProjects/UIAutomationFramework_1/src/main/java/com/ui/automation/base/BaseTest.java
-/Users/nishan/IdeaProjects/UIAutomationFramework_1/src/main/java/com/ui/automation/factory/DriverFactory.java
 /Users/nishan/IdeaProjects/UIAutomationFramework_1/src/main/java/com/ui/automation/pages/LoginPage.java
+/Users/nishan/IdeaProjects/UIAutomationFramework_1/src/main/java/com/ui/automation/Main.java
+/Users/nishan/IdeaProjects/UIAutomationFramework_1/src/main/java/com/ui/automation/factory/DriverFactory.java
+/Users/nishan/IdeaProjects/UIAutomationFramework_1/src/main/java/com/ui/automation/utils/DriverUtils.java
