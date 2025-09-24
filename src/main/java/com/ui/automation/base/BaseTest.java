@@ -11,6 +11,7 @@ public class BaseTest {
     public void setup() {
         driver = DriverFactory.getDriver();
         driver.get("https://google.com");
+        driver.manage().window().maximize();
     }
 
     @AfterMethod
