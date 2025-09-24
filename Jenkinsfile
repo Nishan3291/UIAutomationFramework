@@ -5,7 +5,7 @@ pipeline {
         // Ensure Maven and JDK paths are correctly set
         MAVEN_HOME = "/opt/homebrew/Cellar/maven/3.9.11/libexec"  // update to your Maven installation
         JAVA_HOME = "/Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home" // update to your JDK path
-        PATH = "${MAVEN_HOME}/bin:${JAVA_HOME}/bin:${env.PATH}"
+        PATH = "${JAVA_HOME}/bin:${MAVEN_HOME}/bin:/bin:/usr/bin:${env.PATH}"
     }
 
     tools {
