@@ -12,6 +12,7 @@ public class BaseTest {
         driver = DriverFactory.getDriver();
         driver.get("https://google.com");
         driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(10, java.util.concurrent.TimeUnit.SECONDS);
     }
 
     @AfterMethod

@@ -9,7 +9,7 @@ public class LoginSteps {
 
     @Given("User is on login page")
     public void user_is_on_login_page() {
-        DriverFactory.getDriver().get("https://example.com/login");
+        DriverFactory.getDriver().get("https://google.com/login");
     }
 
     @When("User enters username {string} and password {string}")
